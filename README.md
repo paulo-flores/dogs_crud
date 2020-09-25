@@ -1,6 +1,6 @@
 ## Dogs CRUD
 
-# Para executar o projeto:
+# Antes de executar o projeto:
 
 - Faça o download do projeto 
 - Faça uma cópia do arquivo .env.example e renomeie para .env
