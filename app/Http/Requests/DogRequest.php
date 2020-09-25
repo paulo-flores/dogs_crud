@@ -24,8 +24,8 @@ class DogRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|alpha',
-            'breed' => 'required|alpha',
+            'name' => 'required',
+            'breed' => 'required',
             'age' => 'required|numeric|max:25|min:0'
         ];
     }
