@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar navbar navbar-dark bg-dark navbar-expand-md  shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('/dogs') }}">
                     Dogs CRUD
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -36,12 +36,7 @@
                                     <a class="nav-link" href="/dogs/create">Create</a>
                                 </li>
                         
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                   Teste <span class="caret"></span>
-                                </a>
-
-                            </li>
+                          
                         
                     </ul>
                 </div>
